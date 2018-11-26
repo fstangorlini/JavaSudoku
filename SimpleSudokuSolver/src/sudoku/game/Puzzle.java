@@ -54,7 +54,7 @@ public class Puzzle
         } catch(NumberFormatException e){System.err.println("Formato do Puzzle invalido!");}
     }
 
-	public boolean isConflictAssign(int x, int y, int val)
+	private boolean isConflictAssign(int x, int y, int val)
     {
         //Same row
         for(int i : vet08)
